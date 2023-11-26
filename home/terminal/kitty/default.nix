@@ -5,7 +5,7 @@
 # vim:ft=kitty
 
 #zshell
-shell fish
+shell zsh
 
 # Remove close window confirm
 confirm_os_window_close 0
