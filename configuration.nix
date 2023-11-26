@@ -22,6 +22,9 @@
   # networking.networkmanager.enable = true;  # Easiest to use and most distros use this by default.
  
   nix.settings.experimental-features = ["nix-command" "flakes"];
+  nix.extraOptions =''
+    warn-dirty = false
+  '';
 
   # Set your time zone.
   time.timeZone = "Asia/Shanghai";
@@ -96,7 +99,6 @@
      v2raya
      v2ray
      cmake
-     blueman
      bluetuith
      rofi-bluetooth
      gnumake
@@ -164,6 +166,7 @@
   environment.variables.EDITOR = "nvim";
   hardware.pulseaudio.enable = false;
   hardware.bluetooth.enable = true;
+  services.blueman.enable = true;
   services.mpd.user = "hyy";
 systemd.services.mpd.environment = {
     # https://gitlab.freedesktop.org/pipewire/pipewire/-/issues/609

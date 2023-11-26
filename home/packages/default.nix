@@ -9,6 +9,8 @@
     pkgs.grc
     pkgs.jetbrains.pycharm-professional
     pkgs.gitSVN
+    pkgs.unzip
+    pkgs.wpsoffice-cn
   ];
   
 }
