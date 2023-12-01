@@ -4,6 +4,7 @@
   shellAliases = {
     ll = "ls -l";
     update = "sudo nixos-rebuild switch";
+    nvim = "nix run ~/nixvim# --";
   };
   oh-my-zsh = {
     enable = true;

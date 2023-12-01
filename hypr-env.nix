@@ -20,6 +20,7 @@
       xdg-desktop-portal-wlr
     ];
   };
+  xdg.portal.config.common.default = "*";
 
   environment.pathsToLink = ["/libexec"]; # links /libexec from derivations to /run/current-system/sw
   services = {
