@@ -1,22 +1,23 @@
-{inputs, lib, config, pkgs, ...}:{
+{ inputs, lib, config, pkgs, ... }: {
   home.username = "hyy";
   home.homeDirectory = "/home/hyy";
   imports = [
-	./hyprland
-  ./rofi
-  ./terminal
-  ./neofetch
-  ./direnv
-  ./shell/zsh.nix
-  ./shell/fish.nix
-  ./packages
-  ../dev-environments
-  ./waybar
-  ./eww
-  ../wallpaper
-  ./music
-  ./dunst
-  ./git
+    ./hyprland
+    ./rofi
+    ./terminal
+    ./neofetch
+    ./direnv
+    ./shell/zsh.nix
+    ./shell/fish.nix
+    ./packages
+    ../dev-environments
+    ./waybar
+    ./eww
+    ../wallpaper
+    ./music
+    ./dunst
+    ./git
+    ./ags
   ];
   home.stateVersion = "23.11";
   programs.home-manager.enable = true;
