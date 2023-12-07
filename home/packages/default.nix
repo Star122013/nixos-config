@@ -11,6 +11,9 @@
     pkgs.gitSVN
     pkgs.unzip
     pkgs.wpsoffice-cn
+    pkgs.obsidian
+    pkgs.hexo-cli
+    pkgs.devbox
+    pkgs.tlp    
   ];
-  
 }

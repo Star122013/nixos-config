@@ -95,7 +95,6 @@
      proxychains
      kitty
      rnix-lsp
-     clash-verge
      v2raya
      v2ray
      cmake
