@@ -14,6 +14,6 @@
     pkgs.obsidian
     pkgs.hexo-cli
     pkgs.devbox
-    pkgs.tlp    
+    pkgs.lazygit
   ];
 }

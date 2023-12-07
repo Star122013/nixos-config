@@ -17,8 +17,7 @@ italic_font      jetbrains mono nerd font
 bold_italic_font jetbrains mono nerd font
 
 font_size 14.0
-background_opacity 0.45
-
+background_opacity 0.70
 # Window padding
 window_padding_width 4 
 
