@@ -15,6 +15,7 @@
     pkgs.hexo-cli
     pkgs.devbox
     pkgs.lazygit
+    pkgs.discord
   ];
 }
 
