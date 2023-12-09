@@ -16,9 +16,5 @@
     pkgs.devbox
     pkgs.lazygit
   ];
-  programs.discord = {
-    enable = true;
-    commandLineArgs = [ "--proxy=http://127.0.0.1:20171" ];
-  };
 }
 
