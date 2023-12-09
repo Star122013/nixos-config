@@ -1,21 +1,23 @@
 {
- programs.zsh = {
-  enable = true;
-  shellAliases = {
-    ll = "ls -l";
-    update = "sudo nixos-rebuild switch";
-    nvim = "nix run ~/nixvim# --";
-  };
-  oh-my-zsh = {
+  programs.zsh = {
     enable = true;
-    plugins = [ "git"];
-    theme = "random";
+    shellAliases = {
+      ll = "ls -l";
+      update = "sudo nixos-rebuild switch";
+      nvim = "nix run ~/app-flakes/nixvim# --";
+    };
+    oh-my-zsh = {
+      enable = true;
+      plugins = [ "git" ];
+      theme = "random";
+    };
+    zplug = {
+      enable = true;
+      plugins = [{
+        name = "zsh-users/zsh-autosuggestions";
+      } # Simple plugin installation
+      ];
+    };
   };
-zplug = {
-    enable = true;
-    plugins = [
-      { name = "zsh-users/zsh-autosuggestions"; } # Simple plugin installation
-    ];
-  };
-};
 }
+

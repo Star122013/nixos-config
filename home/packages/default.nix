@@ -1,4 +1,4 @@
-{pkgs, config, nur,...}:{
+{ pkgs, config, nur, ... }: {
   home.packages = [
     pkgs.appimage-run
     pkgs.google-chrome
@@ -15,5 +15,7 @@
     pkgs.hexo-cli
     pkgs.devbox
     pkgs.lazygit
+    pkgs.discord
   ];
 }
+
