@@ -20,7 +20,6 @@
     ./mako
     ./wlogout
     ./scripts
-    ./xdg.nix
     
   ];
   home.stateVersion = "23.11";
