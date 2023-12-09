@@ -75,6 +75,7 @@
           })
         ];
       })
+            ./xdg.nix
             ./configuration.nix
             ./fonts
             ./modules

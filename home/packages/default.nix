@@ -15,7 +15,10 @@
     pkgs.hexo-cli
     pkgs.devbox
     pkgs.lazygit
-    pkgs.discord
   ];
+  programs.discord = {
+    enable = true;
+    commandLineArgs = [ "--proxy=http://127.0.0.1:20171" ];
+  };
 }
 
