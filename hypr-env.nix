@@ -79,6 +79,8 @@
     pkgs.jq
     pkgs.cpio
     pkgs.polkit
+    pkgs.notify
+    pkgs.libnotify
   ];
 
 

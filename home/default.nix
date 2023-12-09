@@ -17,10 +17,10 @@
     ./music
     ./dunst
     ./git
-    ./anyrun
     ./mako
-    ./scripts
     ./wlogout
+    ./scripts
+    ./anyrun
   ];
   home.stateVersion = "23.11";
   programs.home-manager.enable = true;
