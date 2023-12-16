@@ -1,6 +1,2 @@
-{config, ...}:{
-  imports = [
-    ./python
-    ./java
-  ];
-}
+{ config, ... }: { imports = [ ./python ./java ./Go ]; }
+
