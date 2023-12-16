@@ -81,6 +81,7 @@
             ./modules
             ./hypr-env.nix
             ./flatpak-fonts.nix
+            ./insecure.nix
             nur.nixosModules.nur
             # anyrun.homeManagerModules.default
             # 将 home-manager 配置为 nixos 的一个 module

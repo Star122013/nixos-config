@@ -5,6 +5,7 @@
       ll = "ls -l";
       update = "sudo nixos-rebuild switch";
       nvim = "nix run ~/app-flakes/nixvim# --";
+      eat = "eza -aT";
     };
     oh-my-zsh = {
       enable = true;
@@ -20,4 +21,3 @@
     };
   };
 }
-

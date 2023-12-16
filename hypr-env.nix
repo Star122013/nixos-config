@@ -49,8 +49,7 @@
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
-  environment.systemPackages = [
-    pkgs.libsForQt5.polkit-kde-agent
+environment.systemPackages = [
     pkgs.swaybg # the wallpaper
     pkgs.swayidle # the idle timeout
     pkgs.swaylock # locking the screen

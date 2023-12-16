@@ -4,7 +4,6 @@
     pkgs.google-chrome
     pkgs.dunst
     pkgs.qq
-    pkgs.libreoffice
     pkgs.fzf
     pkgs.grc
     pkgs.jetbrains.pycharm-professional
@@ -16,6 +15,7 @@
     pkgs.devbox
     pkgs.lazygit
     pkgs.discord
+    pkgs.tmux
+    pkgs.eza
   ];
 }
-
