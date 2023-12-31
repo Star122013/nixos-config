@@ -58,8 +58,9 @@
       url = "github:catppuccin/hyprland";
       flake = false;
     };
+    fh.url = "https://flakehub.com/f/DeterminateSystems/fh/*.tar.gz";
   };
-  outputs = { self, nixpkgs, home-manager, nur, anyrun, ... }@inputs:
+  outputs = { self, nixpkgs, fh, home-manager, nur, anyrun, ... }@inputs:
     let inherit (self) outputs;
     in
     {
@@ -82,6 +83,7 @@
             ./hypr-env.nix
             ./flatpak-fonts.nix
             ./insecure.nix
+            
             nur.nixosModules.nur
             # anyrun.homeManagerModules.default
             # 将 home-manager 配置为 nixos 的一个 module
@@ -98,6 +100,9 @@
               # 取消注释下面这一行，就可以在 home.nix 中使用 flake 的所有 inputs 参数了
               home-manager.extraSpecialArgs = { inherit inputs outputs self; };
             }
+             {
+              environment.systemPackages = [ fh.packages.x86_64-linux.default ];
+        }
           ];
         };
       };

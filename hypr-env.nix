@@ -80,6 +80,7 @@ environment.systemPackages = [
     pkgs.polkit
     pkgs.notify
     pkgs.libnotify
+    pkgs.gcj
   ];
 
 

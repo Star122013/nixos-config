@@ -17,5 +17,7 @@
     pkgs.discord
     pkgs.tmux
     pkgs.eza
+    pkgs.freecad
+    pkgs.telegram-desktop
   ];
 }
