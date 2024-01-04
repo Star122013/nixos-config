@@ -9,10 +9,6 @@
       url = "github:Kirottu/anyrun";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    myRepo = {
-      url = "github:star122013/nur_packages";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
     home-manager = {
       url = "github:/nix-community/home-manager/master";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -69,13 +65,6 @@
           system = "x86_64-linux";
           specialArgs = { inherit inputs outputs; };
           modules = [
-            ({
-              nixpkgs.overlays = [
-                (final: prev: {
-                  myRepo = inputs.myRepo.packages."${prev.system}";
-                })
-              ];
-            })
             (args: { nixpkgs.overlays = import ./overlays args; })
             ./configuration.nix
             ./fonts
