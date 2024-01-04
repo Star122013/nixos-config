@@ -1,2 +1,2 @@
-{ config, ... }: { imports = [ ./python ./java ./Go ]; }
+{ config, ... }: { imports = [ ./python ./java ./Go ./rust]; }
 

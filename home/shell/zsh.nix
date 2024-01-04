@@ -6,7 +6,7 @@
       update = "sudo nixos-rebuild switch";
       nvim = "nix run ~/app-flakes/nixvim# --";
       eat = "eza -aT";
-      devInit = "nix flake init --template github:the-nix-way/dev-templates#rust";
+      rustInit = "nix flake init --template github:the-nix-way/dev-templates#rust";
     };
     oh-my-zsh = {
       enable = true;
