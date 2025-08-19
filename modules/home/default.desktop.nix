@@ -8,6 +8,7 @@
     ./alacritty.nix
     ./ghostty.nix
     ./swww.nix
+    ./ssh.nix
 
     ./packages
     ./theme
