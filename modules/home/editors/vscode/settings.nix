@@ -2,6 +2,7 @@
   programs.vscode.profiles.default.userSettings = {
     "explorer.confirmDragAndDrop" = false;
     "explorer.confirmDelete" = false;
+    "file.autoSave" = "afterDelay";
 
     "workbench.colorTheme" =  "Catppuccin Mocha";
     "workbench.iconTheme" = "catppuccin-mocha";
@@ -12,9 +13,11 @@
     # nix lsp
     "nix.enableLanguageServer" = true;
     "nix.serverPath" = "nixd";
-     "nixd" = {
-      "formatting" = {
-        "command" = ["nixfmt"];
+    "nix.serverSettings" = {
+      "nixd" = {
+        "formatting" = {
+          "command" = ["nixfmt"];
+        };
       };
     };
   };
