@@ -3,6 +3,7 @@
     "explorer.confirmDragAndDrop" = false;
     "explorer.confirmDelete" = false;
     "files.autoSave" = "afterDelay";
+    "git.confirmSync" = false;
 
     "workbench.colorTheme" =  "Catppuccin Mocha";
     "workbench.iconTheme" = "catppuccin-mocha";
