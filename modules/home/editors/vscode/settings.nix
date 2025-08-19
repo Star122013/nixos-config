@@ -2,7 +2,7 @@
   programs.vscode.profiles.default.userSettings = {
     "explorer.confirmDragAndDrop" = false;
     "explorer.confirmDelete" = false;
-    "file.autoSave" = "afterDelay";
+    "files.autoSave" = "afterDelay";
 
     "workbench.colorTheme" =  "Catppuccin Mocha";
     "workbench.iconTheme" = "catppuccin-mocha";
