@@ -9,6 +9,7 @@
     ./ghostty.nix
     ./swww.nix
     ./ssh.nix
+    ./git.nix
 
     ./packages
     ./theme

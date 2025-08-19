@@ -10,6 +10,13 @@
     "editor.fontFamily" = "Maple Mono NF, Jetbrains Mono, Menlo, Consolas, monospace";
     "editor.fontLigatures" = "'calt'";
 
+    "github.copilot.enable" = {
+      "*" = false;
+      "plaintext" = false;
+      "markdown" = false;
+      "scminput" = false;
+    };
+
     # nix lsp
     "nix.enableLanguageServer" = true;
     "nix.serverPath" = "nixd";
