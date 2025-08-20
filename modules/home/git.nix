@@ -17,6 +17,16 @@
     ];
   };
 
+  programs.jujutsu = {
+    enable = true;
+    settings = {
+      user = {
+        emaill = "hyy122013@outlook.com";
+        name = "Ripples";
+      };
+    };
+  };
+
   home.packages = with pkgs; [
     lazygit
   ];
