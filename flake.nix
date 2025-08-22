@@ -19,6 +19,8 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    nix-flatpak.url = "github:gmodena/nix-flatpak/";
+
     catppuccin.url = "github:catppuccin/nix";
 
     niri.url = "github:sodiboo/niri-flake";

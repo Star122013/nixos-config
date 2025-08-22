@@ -28,8 +28,15 @@ in {
     "Super+2".action = focus-workspace "vesktop";
 
     "Mod+Tab" = {
-    action = toggle-overview;
-    hotkey-overlay.title = "Open Overview";
-  };
+      action = toggle-overview;
+      hotkey-overlay.title = "Open Overview";
+    };
+
+    "Print" = {
+      action = screenshot;
+      hotkey-overlay.title = "Screenshot";
+    };
+    "Mod+Print".action.screenshot-screen.write-to-disk = true;
+    "Ctrl+Print".action.screenshot-window.write-to-disk = true;
   };
 }

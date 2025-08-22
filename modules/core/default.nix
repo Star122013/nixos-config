@@ -1,4 +1,4 @@
-{ host, ... } : {
+{ ... } : {
   imports = [
     ./system.nix
     ./network.nix
@@ -9,6 +9,8 @@
     ./theme.nix
     ./fonts.nix
     ./nh.nix
-  ] ++
-    (if host == "desktop" then [ ./wayland.nix ./fcitx.nix ] else null);
+    ./wayland.nix
+    ./fcitx.nix 
+    ./flatpak.nix
+  ];
 }
