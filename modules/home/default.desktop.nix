@@ -17,6 +17,7 @@
     ./quickshell
     ./editors
     ./dev
+    ./browser
     ./../wm/niri
   ];
 }
