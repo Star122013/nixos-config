@@ -8,7 +8,7 @@
     ExtensionSettings = mkExtensionSettings {
       "wappalyzer@crunchlabz.com" = "wappalyzer";
       "{85860b32-02a8-431a-b2b1-40fbd64c9c69}" = "github-file-icons";
-      "{fb25c100-22ce-4d5a-be7e-75f3d6f0fc13}" = "kiss-tranlator";
+      "{fb25c100-22ce-4d5a-be7e-75f3d6f0fc13}" = "kiss-translator";
     };
   };
 }
