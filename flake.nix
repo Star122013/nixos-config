@@ -47,7 +47,7 @@
 
   outputs = { self, nixpkgs, ... }@inputs: 
     let 
-      username = "hyy";
+      username = "kiana";
     in
     {
       nixosConfigurations = {

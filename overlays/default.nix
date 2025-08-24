@@ -1,6 +1,7 @@
-{ ... } : {
-  imports = [
-    ./nix4vscode.nix
-    ./niri.nix
-  ];
+{ inputs, ... } : {
+  nixpkgs.overlays = 
+    [ 
+      inputs.niri.overlays.niri
+      inputs.nix4vscode.overlays.forVscode 
+    ];
 }
